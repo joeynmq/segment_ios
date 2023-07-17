@@ -1,0 +1,3 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Segment.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mixpanel.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Segment_Mixpanel.framework

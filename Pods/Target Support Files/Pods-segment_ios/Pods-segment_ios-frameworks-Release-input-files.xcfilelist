@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-segment_ios/Pods-segment_ios-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Analytics/Segment.framework
+${BUILT_PRODUCTS_DIR}/Mixpanel/Mixpanel.framework
+${BUILT_PRODUCTS_DIR}/Segment-Mixpanel/Segment_Mixpanel.framework

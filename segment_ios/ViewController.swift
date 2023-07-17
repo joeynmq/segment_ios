@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Segment
 
 class ViewController: UIViewController {
 
@@ -13,7 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func trackOrderCompleted(_ sender: Any) {
+        Analytics.shared().track("Order Completed", properties: ["price": 100])
+        print("Fired Order Completed")
+    }
+    
+    @IBAction func trackSignedUp(_ sender: Any) {
+        Analytics.shared().track("Signed Up", properties: ["name": "Joey"])
+        print("Fired Signed Up")
+    }
+    
 }
-

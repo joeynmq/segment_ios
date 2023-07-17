@@ -1,0 +1,1410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0297187F6F68C452C5AC82E09E24DD36 /* MPNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A339E94710F48E13B27483030678866 /* MPNetwork.m */; };
+		03CECEE22D8E1E49F65B13C57E17ED50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EC4545AD5E372F06BECAD4A90E472A /* Foundation.framework */; };
+		041E7F86C13C45DA8581373B4EFEFCC6 /* MixpanelPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D4BF7F0B15D559908181481D2B6C9 /* MixpanelPersistence.m */; };
+		09FD74E9C9EA627EAC9B9DF0D5211E3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0DD7AEEE5334C5C008E683BCB88BEE /* CoreGraphics.framework */; };
+		0A43C46F296C13246F66DED267B66149 /* NSData+SEGGZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A80B7B47495C2EEB6B7898D4EC2AB3E /* NSData+SEGGZIP.m */; };
+		0D66936A8F524646E62755CAF117F98F /* SEGMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 253DF802AEC7639467D92A89E1FF1606 /* SEGMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12A5DB6B55FD8432DC4FCD2A5CD1ACD2 /* SEGSegmentIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 20312C0701127236F282EECC58F83333 /* SEGSegmentIntegration.m */; };
+		13A4BE6333B524017741FB6211340121 /* MixpanelExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8115D0662AEE2FD09F9AD06023ECBB3C /* MixpanelExceptionHandler.m */; };
+		14FCBFF21A53B61462CEB13571A58554 /* MixpanelPeople.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CEEDA5F22E5B3109760A8BBA6196B37 /* MixpanelPeople.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17A2B46B5710553AC3B357E082C8D1A7 /* SEGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B2B0FA5855521295B9EE7D5504E57E /* SEGContext.m */; };
+		17DA6C85E56CE6FCAA891954BE06BCAE /* Pods-segment_ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8FFB90CD8D5721697FC2FCCE48B724 /* Pods-segment_ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		188BC6A856F53497BBDBD32B7CB98EC1 /* SEGIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8AFEE302F7BB52BE323196138A1AC3 /* SEGIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D09106BAFBF4522CB0A1811B4320203 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6483E2F941827D1CD0FE74D63C21652C /* CoreTelephony.framework */; };
+		211DEB4BE5B24389E3DD5C590941D7FF /* SEGMixpanelIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F394DF1E2DE96DFEE11076447DBC5AE3 /* SEGMixpanelIntegrationFactory.m */; };
+		233849E7247678C8D08019E67C118B57 /* SEGState.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E36EE7519EB830EA424C0A6A23986D2 /* SEGState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		258B0492D68DA5380C22E2C19DFF0EB7 /* MixpanelGroupPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F305EDF8CA1D6362E95DEF99F56F824 /* MixpanelGroupPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		25CC3DAB023D6CFBCA9D71159B6DE2D2 /* MPNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5964B2FEC0892521FF6AEA415BC5B6 /* MPNetwork.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29EB2BB8A05C8FA4199DB760DCC7F421 /* MixpanelGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 94F473C2FA8F5FEE04431508462439E4 /* MixpanelGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A1C5D8D777D5AFF9BCEC8EC3D411CA7 /* SEGMiddleware.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B1D4F6282AD802CCA5567CAE321DC89 /* SEGMiddleware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B1EF9F938A82FDD6FE44792DBE27FE0 /* SEGTrackPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 35291B811DA2B42FC6D7F488D2697030 /* SEGTrackPayload.m */; };
+		2BD5B948072B5DDFDF50A5256A167C86 /* MixpanelType.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AE6C139826CAE27A0950799FB8A2E9 /* MixpanelType.m */; };
+		2CA2A157A24DEBF81B31F04F57D511CB /* MixpanelGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 492B1BC9D51C94B03FB4FECFB4CF2D34 /* MixpanelGroup.m */; };
+		2CD75771820774EC75ECC5E138899ACC /* MixpanelPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F20388E0C86FF12E8637B244ECB66868 /* MixpanelPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		31B3F82B0183E280D3D11664CD5ED456 /* SEGAliasPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA29AFAE8D96B7240A2B353468E92B /* SEGAliasPayload.m */; };
+		320FE5C08207B115B6E98D4CE09381DD /* SEGSegmentIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = E01108B820D62A818A1A0004D34A0639 /* SEGSegmentIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34D25FDE0C34DEC897AE6DB470FA3E85 /* MPLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B36BB75BDE23EFF0128B04CCBD913E1F /* MPLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36204C6E3833C361DC25A78BE407CFFA /* SEGContext.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C8B4C9FF76EE770914BBD02F1CF7AC /* SEGContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39F7A5121334D7A9996A148E4ECDE8AC /* SEGMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0F56990293A959C01D5D2B22F944C /* SEGMiddleware.m */; };
+		3A0A04B92E75940DD27957BE15133A1D /* Segment-Mixpanel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D075487BF66D186C18B38C318BA8D1AF /* Segment-Mixpanel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AB503D076E809F546D53CA1B0B2B9EB /* SEGAES256Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 93CB7611CDA6F12F127C276DCD7DFB71 /* SEGAES256Crypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CCFE6AA09821263964112C456248DC5 /* SEGState.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D1F7DD5B02060834F05B504296A1FA /* SEGState.m */; };
+		3EFCD773E3C83EBD7D056CAE92E0B173 /* SEGIdentifyPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ACF3AA955EB536FCCC485E60A3D555 /* SEGIdentifyPayload.m */; };
+		436C18C3ABB3D6A52A91AC93DD5DDBF0 /* SEGSegmentIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CEE87FE8ADC429F62F07DD406F3BDF5 /* SEGSegmentIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		486BD878A6185651850D19FE0A855E54 /* SEGHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A54A3C0DF72B5E11648DBAFCC62A7554 /* SEGHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49516146CFF7204A9EF22E1A20E0EB3B /* MixpanelExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D64B2F13A5BAFDCD5FA039F0CEBE61 /* MixpanelExceptionHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52AC7272006789E5B32F5AFAE4ABD6A0 /* SEGAnalyticsConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EFAE672A34548FDA7958B8E2D1CA35 /* SEGAnalyticsConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54D91309CAB1F1E2991A73A34EF3F45E /* Segment-Mixpanel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3370190D5155EF7FEE5A60FCB35FA64 /* Segment-Mixpanel-dummy.m */; };
+		557DEBE4CCD20864381A8DB339AF20A8 /* SEGReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 57742CD3BA46C305920860DCE7EF14A7 /* SEGReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559868601F3A25B77CD8E5FCFFA830B9 /* SEGTrackPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 36429E94769EC016F59D9CC8723EAF3D /* SEGTrackPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		580B88213546D9DC036A6D55F7B165C7 /* SessionMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F2398807E99FA950D2CA2A7D5C3153 /* SessionMetadata.m */; };
+		5F3C2B7EFD6E617C4F028869166BD3B7 /* MixpanelPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = FB4EB5979E744BF2E9F01395705A4ABB /* MixpanelPersistence.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		66588CF86AD8CE54FB02A548F9E2E0CA /* MixpanelIdentity.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A93E64C025D0694741952827FF59E1D /* MixpanelIdentity.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		696482E99269E8CDB0500799BBCE6449 /* Analytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70D4B530E7903BBA42AA21E316C7FBA2 /* Analytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69895C9C73EFFAF14F5FE152E4855C2A /* MPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A326C2C6D9AB4A90B8B98C9EC196FE17 /* MPLogger.m */; };
+		6C15EB240AF9CD8016D266AA7C9DAE6C /* SEGFileStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 25720135730D7747F4CBF6FB0CA30AD9 /* SEGFileStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7047096BD1A80B3381AE140335889ED0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F30953636DA34EDD37E23B2E88707BC /* QuartzCore.framework */; };
+		71B2EE32B16BB71EB3B48EFDB2D2C3F7 /* SEGAliasPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD3D7F294AAF4B5C1AA91A09AA931BF /* SEGAliasPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7459C4D5936B411B548372351C1C4029 /* SEGStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 340D1E85E46FA129B477F598048B36C1 /* SEGStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		758C6349B66EC10A899AA907E68AF970 /* MPDB.h in Headers */ = {isa = PBXBuildFile; fileRef = E85D7448F4CB16CC5FA0225BD9E0941E /* MPDB.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7C5CC019B581871B3A8F985B81EF24D5 /* SEGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F74E88001E4F1658CF917EE128CE0B41 /* SEGReachability.m */; };
+		7D2B6FEB7994AD7BE07AF9ACF5A9505E /* SEGIntegrationsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 33FB72778F4996C31C402A81CF9E6749 /* SEGIntegrationsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D5C076A4746677A37F564C78018E0DA /* SEGPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EF3EE11240A111DAE0B560F4E3E01D /* SEGPayload.m */; };
+		801C3E728BE598DA047FE2F2FBE59BF9 /* MPNetworkPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A352B6EF8CBCB1CC15CE45338ECFA7 /* MPNetworkPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8135CD7D1AD7B0E1D2FDC563122D5BF9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8988BB5D9D6637CA759F006928C6B1C /* SystemConfiguration.framework */; };
+		860EC0A5D4E5DE26C3FC5BA1B64BAFA8 /* SEGUserDefaultsStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6764DA5FBA1DA9920CA8B35B570EA4 /* SEGUserDefaultsStorage.m */; };
+		8770D7083E819A60F283556229D318BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EC4545AD5E372F06BECAD4A90E472A /* Foundation.framework */; };
+		88E8E7E76F34BE9897B4FC6EE0A506AA /* SessionMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F643BD306A1A3330FC4A0A3D7051512 /* SessionMetadata.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		89D257FA9D2CD19B84D6D32EC19B7628 /* SEGHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4143F2767920D6F6C09B4299291F434A /* SEGHTTPClient.m */; };
+		8C041E2C23D6ACADF2EE2C5BEC52CC55 /* SEGAnalyticsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F363A605A320FCFC04A17433A748F66A /* SEGAnalyticsUtils.m */; };
+		8C0EEA8F56098154A880D893217F9840 /* SEGAES256Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E49F65C72143B32FC8BBAC208EE6BA /* SEGAES256Crypto.m */; };
+		8D5A07D18FAC110A4DE483DFBEC7DC20 /* Pods-segment_ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00608292BDDFF64EAE0F25A3F5ED650B /* Pods-segment_ios-dummy.m */; };
+		8FFACE233F09D4D12D14B245E160180B /* Mixpanel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9995AD7D78F4E39504E7683838851F5 /* Mixpanel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91FC06B3714F103E9192A6F68B15C6D3 /* NSData+SEGGZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3AF1B02274DDE383BB18C45D987D19 /* NSData+SEGGZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		933E8D19F4112CDB3FF768CC633F818B /* SEGCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3A416FDA5376B85D6FDA4A4805686D /* SEGCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		977382C0F7359E7BE08753FF6D96EAB9 /* SEGSerializableValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C4F292C37DE97182121A8F4F60C464 /* SEGSerializableValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A631A562EB473AABFB71096478B9C95 /* SEGMixpanelIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E108DA06DB1A6658B98043C0600C762 /* SEGMixpanelIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CE5AE2FB94BAD317BA572E0E77D6A05 /* SEGAnalyticsConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = BE587783AF41C26DAA8084D788047FC4 /* SEGAnalyticsConfiguration.m */; };
+		A0450A08E026AD13C29F3B42E1B0C7E6 /* Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = FB41EEF00B8302508D0EDEDFB321D83F /* Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B9E30C0EFDA3C5E72EACFADDA1F0D0 /* MPJSONHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDE2632484A84EEA46862B8B1BE3DE6 /* MPJSONHandler.m */; };
+		A4D4F41631772956342E2B5E2C426D82 /* MPDB.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DB7EA1AF82B722CA667D4DC0CC2B43 /* MPDB.m */; };
+		A6FC39F9419F15E470434B9A4493A261 /* SEGScreenPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = D72A22DBB96647F1FFD81DCD189E97F8 /* SEGScreenPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A98268D73144D9B64DB82E9C5CD362AD /* SEGUserDefaultsStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 142DE9DFC43951853C4B7E868654DD80 /* SEGUserDefaultsStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAE32F7E082954CF1DEB05F3DBAE7EE7 /* Mixpanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 125FAA3E49A92F90928D33D7664DEB30 /* Mixpanel.m */; };
+		AC2BB0E786ED3585E7457985E8C9C92F /* SEGSegmentIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC47D5CE6B71E330C0C6F37A8B99F10 /* SEGSegmentIntegrationFactory.m */; };
+		AD1EF9ED5EF7C111B42B8D0DACB3DADD /* UIViewController+SEGScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A026D5A295D5EEF337198F0A24D25E2A /* UIViewController+SEGScreen.m */; };
+		AD948BE8E64B07B2A2F94D660C4C82DC /* SEGAnalyticsUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CE381C1B5E1EE000985D7155E47763 /* SEGAnalyticsUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEF66C8775A1AFA00228442CC69D83D4 /* MixpanelIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = B59541DC0075B1348969E2439F493932 /* MixpanelIdentity.m */; };
+		B14A4AD80DB30D96B4CC886B729AB318 /* SEGMixpanelIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = EF054A2276863A99FE4B164651053D5A /* SEGMixpanelIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B30E2A2E2B816303880718FC3CF2A3FA /* SEGIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = E54DBD989EDE59612CBC8DED1B0419CB /* SEGIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3868CAC80FB99815B226A299350EEC0 /* MixpanelType.h in Headers */ = {isa = PBXBuildFile; fileRef = 4117B8B1053ECE425CA95C084471B2AC /* MixpanelType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B41B7CA65465FD40292222CBB4387589 /* SEGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF20533C46027FE658D519F13129EA7 /* SEGUtils.m */; };
+		B45E14C48D7529A682DC0E250B8B2DAD /* NSViewController+SEGScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F56A8A39CBDABFFAB494241660709BEF /* NSViewController+SEGScreen.m */; };
+		BBE266DA056B721D06F73EDC78A0B7D5 /* Mixpanel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA038C0DCBF3DE23F2147D34641148 /* Mixpanel-dummy.m */; };
+		BD40B43498BB7B136A0CB0D66714CD80 /* SEGGroupPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F811ECEA2BA0EB9BE55BED0A028F8D /* SEGGroupPayload.m */; };
+		BDCC6DF3116852FCE777FE83D7FF4719 /* AutomaticEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 454CBBC19A5CB6CBC65BFAA349676D42 /* AutomaticEvents.m */; };
+		C43E523441207FCA51B655C1EBE61AA1 /* SEGFileStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = C0269B45C9B2C654E052E0D052859193 /* SEGFileStorage.m */; };
+		C7C07A0ACC33F28B0941BEEA01049CB9 /* SEGScreenPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9051391A16FB480587866D7953D289 /* SEGScreenPayload.m */; };
+		CC6E78C39A2F31FDE2CF1A5853C504BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EC4545AD5E372F06BECAD4A90E472A /* Foundation.framework */; };
+		CC83DEB29EE23239AB0C219054E1F5DE /* SEGStoreKitTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 005F59D5286F732ACE11625AA286BFBE /* SEGStoreKitTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE74DE1DD207253E2FA2033F73712A97 /* MPJSONHander.h in Headers */ = {isa = PBXBuildFile; fileRef = 5390C03D03C99EBAFB72890CFD965C31 /* MPJSONHander.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D12FFE6A85B5F33032CF7A0E5E0B38EC /* Analytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4491FE8822005E4237B2DE9E02F3B13 /* Analytics-dummy.m */; };
+		D28E14052CD0A91C836F5772219C2834 /* MixpanelPeoplePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C0A99F5A4C564B2C043B3C044045AE /* MixpanelPeoplePrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D46BEBE7D76C095DA757891E51CBE4DC /* SEGAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 072105504FF5DB46E1E045C37BE54987 /* SEGAnalytics.m */; };
+		D487F0CFE93C9F22E7BA49B7A0EE9A8A /* SEGMixpanelIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497508915CFD0A177730D54BDCA64BD /* SEGMixpanelIntegration.m */; };
+		DA418C3CD9199C93A7213AED57B6CFEA /* SEGAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8930121D1CD1F3E0309DE512885CD7C5 /* SEGAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAFEE3F83DF9B2915DD394593A23F0CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EC4545AD5E372F06BECAD4A90E472A /* Foundation.framework */; };
+		DC8F6CEF3ADD9C9F82A40739E904D693 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6E078375507BB3B004DE5DC6C8E642 /* StoreKit.framework */; };
+		DF130B86CF3EC0670CDC46E6EBF9CF7B /* SEGPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA86D4652119FA1E4E59812E58B8AE7 /* SEGPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E16018C648DCF5ECBCC1C9E6100BCD2D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1727A7EAC2A4914BFF4160EE9B5B8C5A /* Accelerate.framework */; };
+		E210A24CB9C0CBA8F67D3B445619AAAF /* SEGWebhookIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = E83EEAE345C187AF8E4C4FC484036497 /* SEGWebhookIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E221C207DD97BB06DB6515FB3230BC44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EB98FD99BFE456C163ED9F2D8B6807 /* UIKit.framework */; };
+		E71FF9F3AC6C69C401E3345ED75318FE /* Mixpanel.h in Headers */ = {isa = PBXBuildFile; fileRef = EC4A2CA30C11B4B9EEC6A764F974898A /* Mixpanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8F4C396C82107C84CD2BC08A6F29D0B /* SEGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 61AFF9DDA222DD3EFD66BDE4EC6B14DF /* SEGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA29DF308095E0DA82A77CB9C00852AE /* SEGWebhookIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2078DF79DD3E266F0F05F455908EC793 /* SEGWebhookIntegration.m */; };
+		EC8A5632EB1726B2A002A4DCFB358577 /* NSViewController+SEGScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D971F1BB40CCCAE6DCD06FCF1E89E0 /* NSViewController+SEGScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC8EB7F1686CA218646849333EC81E38 /* SEGScreenReporting.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D037CA920DE811144C92F23568FA39 /* SEGScreenReporting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFA3349CA5229101281160A984AD2A30 /* SEGIdentifyPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = EC47E98324EEA1DA8849149D19723169 /* SEGIdentifyPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FBAD72F75F680FFC9A970762F41C89 /* MPFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = DF573102230D93A4FDCBD85F67265474 /* MPFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6B7E58595010F1158839CB80D1BFD05 /* AutomaticEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 2660A229A63573803AD2C6E49EC3A003 /* AutomaticEvents.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F73144C3DF66F22DA7CA846601BD3AAE /* SEGStoreKitTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F17E47A3D8EC79B7AB7D14F7E9C9EB /* SEGStoreKitTracker.m */; };
+		FA8E28C8BB07ED3AF93CEE55CF8FA9A9 /* MixpanelPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C3835E53CB663E836C6D630241D6D3 /* MixpanelPeople.m */; };
+		FB1F2CF0EC25B86AE8955D60BB7BA9B6 /* SEGIntegrationsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2598879AA24EE241BC745E8AB4762ABE /* SEGIntegrationsManager.m */; };
+		FD47E3FBF25FAEB299E1182C5EC419F8 /* UIViewController+SEGScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F9EC90B943EF44FED0B37DD8AB2E9B35 /* UIViewController+SEGScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEA67B1EE1DFCC8C2D02902FD242CB4E /* SEGGroupPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC8B2B656095E340F9CEDAAE56E672C /* SEGGroupPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BB353DFF83FA07C74BC82C4D44FBDC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F50A15C556FFEAD343B69C7EA54092F;
+			remoteInfo = Analytics;
+		};
+		75147B0390BBEC64667D016704943B90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A2A717F5D748C02847D5C84A6E5FCBB;
+			remoteInfo = "Segment-Mixpanel";
+		};
+		788F20BE28A8FC93E86BEA4FDA7BD28F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F50A15C556FFEAD343B69C7EA54092F;
+			remoteInfo = Analytics;
+		};
+		D55450E0D6714E1666EEED8559A7B0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537B4CFD82E0DD77F4C26221EBD8EDCA;
+			remoteInfo = Mixpanel;
+		};
+		FC3A394145784AA96C204A70E785BD64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537B4CFD82E0DD77F4C26221EBD8EDCA;
+			remoteInfo = Mixpanel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005F59D5286F732ACE11625AA286BFBE /* SEGStoreKitTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGStoreKitTracker.h; path = Segment/Internal/SEGStoreKitTracker.h; sourceTree = "<group>"; };
+		00608292BDDFF64EAE0F25A3F5ED650B /* Pods-segment_ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-segment_ios-dummy.m"; sourceTree = "<group>"; };
+		01D037CA920DE811144C92F23568FA39 /* SEGScreenReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGScreenReporting.h; path = Segment/Classes/SEGScreenReporting.h; sourceTree = "<group>"; };
+		03D971F1BB40CCCAE6DCD06FCF1E89E0 /* NSViewController+SEGScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSViewController+SEGScreen.h"; path = "Segment/Internal/NSViewController+SEGScreen.h"; sourceTree = "<group>"; };
+		0497508915CFD0A177730D54BDCA64BD /* SEGMixpanelIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGMixpanelIntegration.m; path = Pod/Classes/SEGMixpanelIntegration.m; sourceTree = "<group>"; };
+		072105504FF5DB46E1E045C37BE54987 /* SEGAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalytics.m; path = Segment/Classes/SEGAnalytics.m; sourceTree = "<group>"; };
+		09EC4545AD5E372F06BECAD4A90E472A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0A80B7B47495C2EEB6B7898D4EC2AB3E /* NSData+SEGGZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SEGGZIP.m"; path = "Segment/Internal/NSData+SEGGZIP.m"; sourceTree = "<group>"; };
+		0E108DA06DB1A6658B98043C0600C762 /* SEGMixpanelIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGMixpanelIntegrationFactory.h; path = Pod/Classes/SEGMixpanelIntegrationFactory.h; sourceTree = "<group>"; };
+		11F811ECEA2BA0EB9BE55BED0A028F8D /* SEGGroupPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGGroupPayload.m; path = Segment/Classes/SEGGroupPayload.m; sourceTree = "<group>"; };
+		125FAA3E49A92F90928D33D7664DEB30 /* Mixpanel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Mixpanel.m; path = Sources/Mixpanel.m; sourceTree = "<group>"; };
+		13361B4E7377859362E4DDBDEDACA9C4 /* Mixpanel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mixpanel.release.xcconfig; sourceTree = "<group>"; };
+		142DE9DFC43951853C4B7E868654DD80 /* SEGUserDefaultsStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGUserDefaultsStorage.h; path = Segment/Internal/SEGUserDefaultsStorage.h; sourceTree = "<group>"; };
+		1727A7EAC2A4914BFF4160EE9B5B8C5A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		1A339E94710F48E13B27483030678866 /* MPNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNetwork.m; path = Sources/MPNetwork.m; sourceTree = "<group>"; };
+		1A93E64C025D0694741952827FF59E1D /* MixpanelIdentity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MixpanelIdentity.h; path = Sources/MixpanelIdentity.h; sourceTree = "<group>"; };
+		1C230361F74CF7214D3D9A1CB61B5FF9 /* Mixpanel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mixpanel; path = Mixpanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CEA038C0DCBF3DE23F2147D34641148 /* Mixpanel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mixpanel-dummy.m"; sourceTree = "<group>"; };
+		1CEE87FE8ADC429F62F07DD406F3BDF5 /* SEGSegmentIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSegmentIntegrationFactory.h; path = Segment/Classes/SEGSegmentIntegrationFactory.h; sourceTree = "<group>"; };
+		1CEEDA5F22E5B3109760A8BBA6196B37 /* MixpanelPeople.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MixpanelPeople.h; path = Sources/MixpanelPeople.h; sourceTree = "<group>"; };
+		20312C0701127236F282EECC58F83333 /* SEGSegmentIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGSegmentIntegration.m; path = Segment/Classes/SEGSegmentIntegration.m; sourceTree = "<group>"; };
+		2078DF79DD3E266F0F05F455908EC793 /* SEGWebhookIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGWebhookIntegration.m; path = Segment/Classes/SEGWebhookIntegration.m; sourceTree = "<group>"; };
+		213B5DF4D34475E5546AB0B4CCE8F7B2 /* Analytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Analytics.debug.xcconfig; sourceTree = "<group>"; };
+		253DF802AEC7639467D92A89E1FF1606 /* SEGMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGMacros.h; path = Segment/Internal/SEGMacros.h; sourceTree = "<group>"; };
+		25720135730D7747F4CBF6FB0CA30AD9 /* SEGFileStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGFileStorage.h; path = Segment/Internal/SEGFileStorage.h; sourceTree = "<group>"; };
+		2598879AA24EE241BC745E8AB4762ABE /* SEGIntegrationsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGIntegrationsManager.m; path = Segment/Internal/SEGIntegrationsManager.m; sourceTree = "<group>"; };
+		2660A229A63573803AD2C6E49EC3A003 /* AutomaticEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutomaticEvents.h; path = Sources/AutomaticEvents.h; sourceTree = "<group>"; };
+		29C0A99F5A4C564B2C043B3C044045AE /* MixpanelPeoplePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MixpanelPeoplePrivate.h; path = Sources/MixpanelPeoplePrivate.h; sourceTree = "<group>"; };
+		2CE4B6165F426953A26419DF02AF0D93 /* Analytics */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Analytics; path = Segment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9051391A16FB480587866D7953D289 /* SEGScreenPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGScreenPayload.m; path = Segment/Classes/SEGScreenPayload.m; sourceTree = "<group>"; };
+		2FDA29AFAE8D96B7240A2B353468E92B /* SEGAliasPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAliasPayload.m; path = Segment/Classes/SEGAliasPayload.m; sourceTree = "<group>"; };
+		33FB72778F4996C31C402A81CF9E6749 /* SEGIntegrationsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIntegrationsManager.h; path = Segment/Internal/SEGIntegrationsManager.h; sourceTree = "<group>"; };
+		340D1E85E46FA129B477F598048B36C1 /* SEGStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGStorage.h; path = Segment/Classes/SEGStorage.h; sourceTree = "<group>"; };
+		34B2B0FA5855521295B9EE7D5504E57E /* SEGContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGContext.m; path = Segment/Classes/SEGContext.m; sourceTree = "<group>"; };
+		35291B811DA2B42FC6D7F488D2697030 /* SEGTrackPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGTrackPayload.m; path = Segment/Classes/SEGTrackPayload.m; sourceTree = "<group>"; };
+		36429E94769EC016F59D9CC8723EAF3D /* SEGTrackPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGTrackPayload.h; path = Segment/Classes/SEGTrackPayload.h; sourceTree = "<group>"; };
+		36B0007ECE9DEDC6E64CC10F95D459BF /* Pods-segment_ios */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-segment_ios"; path = Pods_segment_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3A416FDA5376B85D6FDA4A4805686D /* SEGCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGCrypto.h; path = Segment/Classes/SEGCrypto.h; sourceTree = "<group>"; };
+		4117B8B1053ECE425CA95C084471B2AC /* MixpanelType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MixpanelType.h; path = Sources/MixpanelType.h; sourceTree = "<group>"; };
+		4143F2767920D6F6C09B4299291F434A /* SEGHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGHTTPClient.m; path = Segment/Classes/SEGHTTPClient.m; sourceTree = "<group>"; };
+		414C07E1160B792F23F230E92E2F720C /* Analytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Analytics.modulemap; sourceTree = "<group>"; };
+		41AE6C139826CAE27A0950799FB8A2E9 /* MixpanelType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MixpanelType.m; path = Sources/MixpanelType.m; sourceTree = "<group>"; };
+		42C3835E53CB663E836C6D630241D6D3 /* MixpanelPeople.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MixpanelPeople.m; path = Sources/MixpanelPeople.m; sourceTree = "<group>"; };
+		454CBBC19A5CB6CBC65BFAA349676D42 /* AutomaticEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AutomaticEvents.m; path = Sources/AutomaticEvents.m; sourceTree = "<group>"; };
+		492B1BC9D51C94B03FB4FECFB4CF2D34 /* MixpanelGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MixpanelGroup.m; path = Sources/MixpanelGroup.m; sourceTree = "<group>"; };
+		4F305EDF8CA1D6362E95DEF99F56F824 /* MixpanelGroupPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MixpanelGroupPrivate.h; path = Sources/MixpanelGroupPrivate.h; sourceTree = "<group>"; };
+		4F30953636DA34EDD37E23B2E88707BC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5390C03D03C99EBAFB72890CFD965C31 /* MPJSONHander.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPJSONHander.h; path = Sources/MPJSONHander.h; sourceTree = "<group>"; };
+		57742CD3BA46C305920860DCE7EF14A7 /* SEGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGReachability.h; path = Segment/Classes/SEGReachability.h; sourceTree = "<group>"; };
+		57C4F292C37DE97182121A8F4F60C464 /* SEGSerializableValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSerializableValue.h; path = Segment/Classes/SEGSerializableValue.h; sourceTree = "<group>"; };
+		5B1D4F6282AD802CCA5567CAE321DC89 /* SEGMiddleware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGMiddleware.h; path = Segment/Classes/SEGMiddleware.h; sourceTree = "<group>"; };
+		5B3444F2D8BD5D5D24C21077507C9BB4 /* Pods-segment_ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-segment_ios.modulemap"; sourceTree = "<group>"; };
+		5CC47D5CE6B71E330C0C6F37A8B99F10 /* SEGSegmentIntegrationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGSegmentIntegrationFactory.m; path = Segment/Classes/SEGSegmentIntegrationFactory.m; sourceTree = "<group>"; };
+		60D64B2F13A5BAFDCD5FA039F0CEBE61 /* MixpanelExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MixpanelExceptionHandler.h; path = Sources/MixpanelExceptionHandler.h; sourceTree = "<group>"; };
+		618EA64FFDC1916D619DE83E59A38853 /* Segment-Mixpanel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Segment-Mixpanel.release.xcconfig"; sourceTree = "<group>"; };
+		61AFF9DDA222DD3EFD66BDE4EC6B14DF /* SEGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGUtils.h; path = Segment/Internal/SEGUtils.h; sourceTree = "<group>"; };
+		6483E2F941827D1CD0FE74D63C21652C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		679AB1490F74B8E55DB04F2570775E9F /* Pods-segment_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-segment_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		67CB391E8317A433C096E0626E7D7451 /* Segment-Mixpanel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Segment-Mixpanel"; path = Segment_Mixpanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6CC6620803B2B658D44B677BEA940D /* Analytics-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Analytics-Info.plist"; sourceTree = "<group>"; };
+		6CD3D7F294AAF4B5C1AA91A09AA931BF /* SEGAliasPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAliasPayload.h; path = Segment/Classes/SEGAliasPayload.h; sourceTree = "<group>"; };
+		6E36EE7519EB830EA424C0A6A23986D2 /* SEGState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGState.h; path = Segment/Internal/SEGState.h; sourceTree = "<group>"; };
+		6EA86D4652119FA1E4E59812E58B8AE7 /* SEGPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGPayload.h; path = Segment/Classes/SEGPayload.h; sourceTree = "<group>"; };
+		6F087704D6592770D57F05FB5EA6B360 /* Mixpanel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mixpanel.debug.xcconfig; sourceTree = "<group>"; };
+		6F643BD306A1A3330FC4A0A3D7051512 /* SessionMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SessionMetadata.h; path = Sources/SessionMetadata.h; sourceTree = "<group>"; };
+		70D4B530E7903BBA42AA21E316C7FBA2 /* Analytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Analytics-umbrella.h"; sourceTree = "<group>"; };
+		71ACF3AA955EB536FCCC485E60A3D555 /* SEGIdentifyPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGIdentifyPayload.m; path = Segment/Classes/SEGIdentifyPayload.m; sourceTree = "<group>"; };
+		7B8AFEE302F7BB52BE323196138A1AC3 /* SEGIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIntegration.h; path = Segment/Classes/SEGIntegration.h; sourceTree = "<group>"; };
+		7C4D4BF7F0B15D559908181481D2B6C9 /* MixpanelPersistence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MixpanelPersistence.m; path = Sources/MixpanelPersistence.m; sourceTree = "<group>"; };
+		802B0FD574EE6D1C63FA74D5EF154B27 /* Segment-Mixpanel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Segment-Mixpanel.debug.xcconfig"; sourceTree = "<group>"; };
+		8115D0662AEE2FD09F9AD06023ECBB3C /* MixpanelExceptionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MixpanelExceptionHandler.m; path = Sources/MixpanelExceptionHandler.m; sourceTree = "<group>"; };
+		850958F50E67B27DCA21D4D7DADA4AC8 /* Analytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Analytics-prefix.pch"; sourceTree = "<group>"; };
+		88F17E47A3D8EC79B7AB7D14F7E9C9EB /* SEGStoreKitTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGStoreKitTracker.m; path = Segment/Internal/SEGStoreKitTracker.m; sourceTree = "<group>"; };
+		8930121D1CD1F3E0309DE512885CD7C5 /* SEGAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalytics.h; path = Segment/Classes/SEGAnalytics.h; sourceTree = "<group>"; };
+		89442FF1BFBC25875DA6F9EC4CA16918 /* Pods-segment_ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-segment_ios-frameworks.sh"; sourceTree = "<group>"; };
+		8B5964B2FEC0892521FF6AEA415BC5B6 /* MPNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNetwork.h; path = Sources/MPNetwork.h; sourceTree = "<group>"; };
+		8C6764DA5FBA1DA9920CA8B35B570EA4 /* SEGUserDefaultsStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGUserDefaultsStorage.m; path = Segment/Internal/SEGUserDefaultsStorage.m; sourceTree = "<group>"; };
+		8E52644DB2CB9285A7A9391476C53E4C /* Pods-segment_ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-segment_ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93CB7611CDA6F12F127C276DCD7DFB71 /* SEGAES256Crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAES256Crypto.h; path = Segment/Internal/SEGAES256Crypto.h; sourceTree = "<group>"; };
+		94F473C2FA8F5FEE04431508462439E4 /* MixpanelGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MixpanelGroup.h; path = Sources/MixpanelGroup.h; sourceTree = "<group>"; };
+		98E49F65C72143B32FC8BBAC208EE6BA /* SEGAES256Crypto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAES256Crypto.m; path = Segment/Internal/SEGAES256Crypto.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A026D5A295D5EEF337198F0A24D25E2A /* UIViewController+SEGScreen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SEGScreen.m"; path = "Segment/Internal/UIViewController+SEGScreen.m"; sourceTree = "<group>"; };
+		A056F55060FAC58EF0C1FD0ADF3B3B38 /* Mixpanel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mixpanel.modulemap; sourceTree = "<group>"; };
+		A326C2C6D9AB4A90B8B98C9EC196FE17 /* MPLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPLogger.m; path = Sources/MPLogger.m; sourceTree = "<group>"; };
+		A4A352B6EF8CBCB1CC15CE45338ECFA7 /* MPNetworkPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNetworkPrivate.h; path = Sources/MPNetworkPrivate.h; sourceTree = "<group>"; };
+		A54A3C0DF72B5E11648DBAFCC62A7554 /* SEGHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGHTTPClient.h; path = Segment/Classes/SEGHTTPClient.h; sourceTree = "<group>"; };
+		A8C0F56990293A959C01D5D2B22F944C /* SEGMiddleware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGMiddleware.m; path = Segment/Classes/SEGMiddleware.m; sourceTree = "<group>"; };
+		A9995AD7D78F4E39504E7683838851F5 /* Mixpanel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mixpanel-umbrella.h"; sourceTree = "<group>"; };
+		B36BB75BDE23EFF0128B04CCBD913E1F /* MPLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPLogger.h; path = Sources/MPLogger.h; sourceTree = "<group>"; };
+		B4491FE8822005E4237B2DE9E02F3B13 /* Analytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Analytics-dummy.m"; sourceTree = "<group>"; };
+		B59541DC0075B1348969E2439F493932 /* MixpanelIdentity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MixpanelIdentity.m; path = Sources/MixpanelIdentity.m; sourceTree = "<group>"; };
+		B7B24CEF8C74EE46731FE53367E7F169 /* Segment-Mixpanel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Segment-Mixpanel-Info.plist"; sourceTree = "<group>"; };
+		BA3AF1B02274DDE383BB18C45D987D19 /* NSData+SEGGZIP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SEGGZIP.h"; path = "Segment/Internal/NSData+SEGGZIP.h"; sourceTree = "<group>"; };
+		BAC8B2B656095E340F9CEDAAE56E672C /* SEGGroupPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGGroupPayload.h; path = Segment/Classes/SEGGroupPayload.h; sourceTree = "<group>"; };
+		BE587783AF41C26DAA8084D788047FC4 /* SEGAnalyticsConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalyticsConfiguration.m; path = Segment/Classes/SEGAnalyticsConfiguration.m; sourceTree = "<group>"; };
+		C0269B45C9B2C654E052E0D052859193 /* SEGFileStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGFileStorage.m; path = Segment/Internal/SEGFileStorage.m; sourceTree = "<group>"; };
+		C3370190D5155EF7FEE5A60FCB35FA64 /* Segment-Mixpanel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Segment-Mixpanel-dummy.m"; sourceTree = "<group>"; };
+		C3F2398807E99FA950D2CA2A7D5C3153 /* SessionMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SessionMetadata.m; path = Sources/SessionMetadata.m; sourceTree = "<group>"; };
+		CCF20533C46027FE658D519F13129EA7 /* SEGUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGUtils.m; path = Segment/Internal/SEGUtils.m; sourceTree = "<group>"; };
+		D075487BF66D186C18B38C318BA8D1AF /* Segment-Mixpanel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segment-Mixpanel-umbrella.h"; sourceTree = "<group>"; };
+		D1C8B4C9FF76EE770914BBD02F1CF7AC /* SEGContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGContext.h; path = Segment/Classes/SEGContext.h; sourceTree = "<group>"; };
+		D72A22DBB96647F1FFD81DCD189E97F8 /* SEGScreenPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGScreenPayload.h; path = Segment/Classes/SEGScreenPayload.h; sourceTree = "<group>"; };
+		DA0DD7AEEE5334C5C008E683BCB88BEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		DA5FE8FC3958F5184DB612B52C1F0D8F /* Mixpanel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mixpanel-prefix.pch"; sourceTree = "<group>"; };
+		DE7477A1A3E4D4526B92536E74FF14B3 /* Pods-segment_ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-segment_ios-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF15B272946615E9838EB79367529440 /* Mixpanel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mixpanel-Info.plist"; sourceTree = "<group>"; };
+		DF573102230D93A4FDCBD85F67265474 /* MPFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPFoundation.h; path = Sources/MPFoundation.h; sourceTree = "<group>"; };
+		DFBA2F80276D8D395485D3B67C631CBF /* Segment-Mixpanel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segment-Mixpanel-prefix.pch"; sourceTree = "<group>"; };
+		E01108B820D62A818A1A0004D34A0639 /* SEGSegmentIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSegmentIntegration.h; path = Segment/Classes/SEGSegmentIntegration.h; sourceTree = "<group>"; };
+		E024D227042EC1255C4789699B5F9F3E /* Segment-Mixpanel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Segment-Mixpanel.modulemap"; sourceTree = "<group>"; };
+		E3D1F7DD5B02060834F05B504296A1FA /* SEGState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGState.m; path = Segment/Internal/SEGState.m; sourceTree = "<group>"; };
+		E54DBD989EDE59612CBC8DED1B0419CB /* SEGIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIntegrationFactory.h; path = Segment/Classes/SEGIntegrationFactory.h; sourceTree = "<group>"; };
+		E55805DC433DD19215392B2710906B92 /* Analytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Analytics.release.xcconfig; sourceTree = "<group>"; };
+		E83EEAE345C187AF8E4C4FC484036497 /* SEGWebhookIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGWebhookIntegration.h; path = Segment/Classes/SEGWebhookIntegration.h; sourceTree = "<group>"; };
+		E85D7448F4CB16CC5FA0225BD9E0941E /* MPDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPDB.h; path = Sources/MPDB.h; sourceTree = "<group>"; };
+		E8988BB5D9D6637CA759F006928C6B1C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		E8CE381C1B5E1EE000985D7155E47763 /* SEGAnalyticsUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsUtils.h; path = Segment/Classes/SEGAnalyticsUtils.h; sourceTree = "<group>"; };
+		EC47E98324EEA1DA8849149D19723169 /* SEGIdentifyPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIdentifyPayload.h; path = Segment/Classes/SEGIdentifyPayload.h; sourceTree = "<group>"; };
+		EC4A2CA30C11B4B9EEC6A764F974898A /* Mixpanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mixpanel.h; path = Sources/Mixpanel.h; sourceTree = "<group>"; };
+		EF054A2276863A99FE4B164651053D5A /* SEGMixpanelIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGMixpanelIntegration.h; path = Pod/Classes/SEGMixpanelIntegration.h; sourceTree = "<group>"; };
+		EFDE2632484A84EEA46862B8B1BE3DE6 /* MPJSONHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPJSONHandler.m; path = Sources/MPJSONHandler.m; sourceTree = "<group>"; };
+		EFE2CD5DF465216029D05DD2300206C9 /* Pods-segment_ios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-segment_ios-Info.plist"; sourceTree = "<group>"; };
+		F0EB98FD99BFE456C163ED9F2D8B6807 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F20388E0C86FF12E8637B244ECB66868 /* MixpanelPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MixpanelPrivate.h; path = Sources/MixpanelPrivate.h; sourceTree = "<group>"; };
+		F363A605A320FCFC04A17433A748F66A /* SEGAnalyticsUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalyticsUtils.m; path = Segment/Classes/SEGAnalyticsUtils.m; sourceTree = "<group>"; };
+		F394DF1E2DE96DFEE11076447DBC5AE3 /* SEGMixpanelIntegrationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGMixpanelIntegrationFactory.m; path = Pod/Classes/SEGMixpanelIntegrationFactory.m; sourceTree = "<group>"; };
+		F4EF3EE11240A111DAE0B560F4E3E01D /* SEGPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGPayload.m; path = Segment/Classes/SEGPayload.m; sourceTree = "<group>"; };
+		F56A8A39CBDABFFAB494241660709BEF /* NSViewController+SEGScreen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSViewController+SEGScreen.m"; path = "Segment/Internal/NSViewController+SEGScreen.m"; sourceTree = "<group>"; };
+		F6EFAE672A34548FDA7958B8E2D1CA35 /* SEGAnalyticsConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsConfiguration.h; path = Segment/Classes/SEGAnalyticsConfiguration.h; sourceTree = "<group>"; };
+		F74E88001E4F1658CF917EE128CE0B41 /* SEGReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGReachability.m; path = Segment/Classes/SEGReachability.m; sourceTree = "<group>"; };
+		F7DB7EA1AF82B722CA667D4DC0CC2B43 /* MPDB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPDB.m; path = Sources/MPDB.m; sourceTree = "<group>"; };
+		F9EC90B943EF44FED0B37DD8AB2E9B35 /* UIViewController+SEGScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SEGScreen.h"; path = "Segment/Internal/UIViewController+SEGScreen.h"; sourceTree = "<group>"; };
+		FA8FFB90CD8D5721697FC2FCCE48B724 /* Pods-segment_ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-segment_ios-umbrella.h"; sourceTree = "<group>"; };
+		FB41EEF00B8302508D0EDEDFB321D83F /* Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Segment.h; path = Segment/Classes/Segment.h; sourceTree = "<group>"; };
+		FB4EB5979E744BF2E9F01395705A4ABB /* MixpanelPersistence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MixpanelPersistence.h; path = Sources/MixpanelPersistence.h; sourceTree = "<group>"; };
+		FC6E078375507BB3B004DE5DC6C8E642 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		FF752CDAB61DFDB13888EDB3EADDEC09 /* Pods-segment_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-segment_ios.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F02E5B0C9DCD054C5C94A4D2A8FD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6E78C39A2F31FDE2CF1A5853C504BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73AB770554478F5312C6820E5A1BF0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16018C648DCF5ECBCC1C9E6100BCD2D /* Accelerate.framework in Frameworks */,
+				09FD74E9C9EA627EAC9B9DF0D5211E3A /* CoreGraphics.framework in Frameworks */,
+				1D09106BAFBF4522CB0A1811B4320203 /* CoreTelephony.framework in Frameworks */,
+				8770D7083E819A60F283556229D318BA /* Foundation.framework in Frameworks */,
+				7047096BD1A80B3381AE140335889ED0 /* QuartzCore.framework in Frameworks */,
+				DC8F6CEF3ADD9C9F82A40739E904D693 /* StoreKit.framework in Frameworks */,
+				8135CD7D1AD7B0E1D2FDC563122D5BF9 /* SystemConfiguration.framework in Frameworks */,
+				E221C207DD97BB06DB6515FB3230BC44 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCD615DF62E24420AC314FEAC864DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CECEE22D8E1E49F65B13C57E17ED50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61B688516DA15FE1F2685EDE82A4A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFEE3F83DF9B2915DD394593A23F0CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2861D60E019AE489FC81B3A934BB660F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E024D227042EC1255C4789699B5F9F3E /* Segment-Mixpanel.modulemap */,
+				C3370190D5155EF7FEE5A60FCB35FA64 /* Segment-Mixpanel-dummy.m */,
+				B7B24CEF8C74EE46731FE53367E7F169 /* Segment-Mixpanel-Info.plist */,
+				DFBA2F80276D8D395485D3B67C631CBF /* Segment-Mixpanel-prefix.pch */,
+				D075487BF66D186C18B38C318BA8D1AF /* Segment-Mixpanel-umbrella.h */,
+				802B0FD574EE6D1C63FA74D5EF154B27 /* Segment-Mixpanel.debug.xcconfig */,
+				618EA64FFDC1916D619DE83E59A38853 /* Segment-Mixpanel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Segment-Mixpanel";
+			sourceTree = "<group>";
+		};
+		2B4A4477B9B634DE90F7B4DE3D80D62A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A056F55060FAC58EF0C1FD0ADF3B3B38 /* Mixpanel.modulemap */,
+				1CEA038C0DCBF3DE23F2147D34641148 /* Mixpanel-dummy.m */,
+				DF15B272946615E9838EB79367529440 /* Mixpanel-Info.plist */,
+				DA5FE8FC3958F5184DB612B52C1F0D8F /* Mixpanel-prefix.pch */,
+				A9995AD7D78F4E39504E7683838851F5 /* Mixpanel-umbrella.h */,
+				6F087704D6592770D57F05FB5EA6B360 /* Mixpanel.debug.xcconfig */,
+				13361B4E7377859362E4DDBDEDACA9C4 /* Mixpanel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mixpanel";
+			sourceTree = "<group>";
+		};
+		2E715614168E06C394F707EA9C28C91B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				414C07E1160B792F23F230E92E2F720C /* Analytics.modulemap */,
+				B4491FE8822005E4237B2DE9E02F3B13 /* Analytics-dummy.m */,
+				6B6CC6620803B2B658D44B677BEA940D /* Analytics-Info.plist */,
+				850958F50E67B27DCA21D4D7DADA4AC8 /* Analytics-prefix.pch */,
+				70D4B530E7903BBA42AA21E316C7FBA2 /* Analytics-umbrella.h */,
+				213B5DF4D34475E5546AB0B4CCE8F7B2 /* Analytics.debug.xcconfig */,
+				E55805DC433DD19215392B2710906B92 /* Analytics.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Analytics";
+			sourceTree = "<group>";
+		};
+		3695BEE8C846AC3C8703CFFE52023399 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86B15D7BA5FC5BF824E9D382B525363C /* Analytics */,
+				5579F0D3513D2332A052B678AEF11EB7 /* Mixpanel */,
+				AE7C8CBF161A994975DD26465996D2B1 /* Segment-Mixpanel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5579F0D3513D2332A052B678AEF11EB7 /* Mixpanel */ = {
+			isa = PBXGroup;
+			children = (
+				2660A229A63573803AD2C6E49EC3A003 /* AutomaticEvents.h */,
+				454CBBC19A5CB6CBC65BFAA349676D42 /* AutomaticEvents.m */,
+				EC4A2CA30C11B4B9EEC6A764F974898A /* Mixpanel.h */,
+				125FAA3E49A92F90928D33D7664DEB30 /* Mixpanel.m */,
+				60D64B2F13A5BAFDCD5FA039F0CEBE61 /* MixpanelExceptionHandler.h */,
+				8115D0662AEE2FD09F9AD06023ECBB3C /* MixpanelExceptionHandler.m */,
+				94F473C2FA8F5FEE04431508462439E4 /* MixpanelGroup.h */,
+				492B1BC9D51C94B03FB4FECFB4CF2D34 /* MixpanelGroup.m */,
+				4F305EDF8CA1D6362E95DEF99F56F824 /* MixpanelGroupPrivate.h */,
+				1A93E64C025D0694741952827FF59E1D /* MixpanelIdentity.h */,
+				B59541DC0075B1348969E2439F493932 /* MixpanelIdentity.m */,
+				1CEEDA5F22E5B3109760A8BBA6196B37 /* MixpanelPeople.h */,
+				42C3835E53CB663E836C6D630241D6D3 /* MixpanelPeople.m */,
+				29C0A99F5A4C564B2C043B3C044045AE /* MixpanelPeoplePrivate.h */,
+				FB4EB5979E744BF2E9F01395705A4ABB /* MixpanelPersistence.h */,
+				7C4D4BF7F0B15D559908181481D2B6C9 /* MixpanelPersistence.m */,
+				F20388E0C86FF12E8637B244ECB66868 /* MixpanelPrivate.h */,
+				4117B8B1053ECE425CA95C084471B2AC /* MixpanelType.h */,
+				41AE6C139826CAE27A0950799FB8A2E9 /* MixpanelType.m */,
+				E85D7448F4CB16CC5FA0225BD9E0941E /* MPDB.h */,
+				F7DB7EA1AF82B722CA667D4DC0CC2B43 /* MPDB.m */,
+				DF573102230D93A4FDCBD85F67265474 /* MPFoundation.h */,
+				5390C03D03C99EBAFB72890CFD965C31 /* MPJSONHander.h */,
+				EFDE2632484A84EEA46862B8B1BE3DE6 /* MPJSONHandler.m */,
+				B36BB75BDE23EFF0128B04CCBD913E1F /* MPLogger.h */,
+				A326C2C6D9AB4A90B8B98C9EC196FE17 /* MPLogger.m */,
+				8B5964B2FEC0892521FF6AEA415BC5B6 /* MPNetwork.h */,
+				1A339E94710F48E13B27483030678866 /* MPNetwork.m */,
+				A4A352B6EF8CBCB1CC15CE45338ECFA7 /* MPNetworkPrivate.h */,
+				6F643BD306A1A3330FC4A0A3D7051512 /* SessionMetadata.h */,
+				C3F2398807E99FA950D2CA2A7D5C3153 /* SessionMetadata.m */,
+				2B4A4477B9B634DE90F7B4DE3D80D62A /* Support Files */,
+			);
+			name = Mixpanel;
+			path = Mixpanel;
+			sourceTree = "<group>";
+		};
+		618993320EF951199BD2886949863670 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD63F94EAFA881EF0C3ADB96AA987230 /* Pods-segment_ios */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		86B15D7BA5FC5BF824E9D382B525363C /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				BA3AF1B02274DDE383BB18C45D987D19 /* NSData+SEGGZIP.h */,
+				0A80B7B47495C2EEB6B7898D4EC2AB3E /* NSData+SEGGZIP.m */,
+				03D971F1BB40CCCAE6DCD06FCF1E89E0 /* NSViewController+SEGScreen.h */,
+				F56A8A39CBDABFFAB494241660709BEF /* NSViewController+SEGScreen.m */,
+				93CB7611CDA6F12F127C276DCD7DFB71 /* SEGAES256Crypto.h */,
+				98E49F65C72143B32FC8BBAC208EE6BA /* SEGAES256Crypto.m */,
+				6CD3D7F294AAF4B5C1AA91A09AA931BF /* SEGAliasPayload.h */,
+				2FDA29AFAE8D96B7240A2B353468E92B /* SEGAliasPayload.m */,
+				8930121D1CD1F3E0309DE512885CD7C5 /* SEGAnalytics.h */,
+				072105504FF5DB46E1E045C37BE54987 /* SEGAnalytics.m */,
+				F6EFAE672A34548FDA7958B8E2D1CA35 /* SEGAnalyticsConfiguration.h */,
+				BE587783AF41C26DAA8084D788047FC4 /* SEGAnalyticsConfiguration.m */,
+				E8CE381C1B5E1EE000985D7155E47763 /* SEGAnalyticsUtils.h */,
+				F363A605A320FCFC04A17433A748F66A /* SEGAnalyticsUtils.m */,
+				D1C8B4C9FF76EE770914BBD02F1CF7AC /* SEGContext.h */,
+				34B2B0FA5855521295B9EE7D5504E57E /* SEGContext.m */,
+				3D3A416FDA5376B85D6FDA4A4805686D /* SEGCrypto.h */,
+				25720135730D7747F4CBF6FB0CA30AD9 /* SEGFileStorage.h */,
+				C0269B45C9B2C654E052E0D052859193 /* SEGFileStorage.m */,
+				BAC8B2B656095E340F9CEDAAE56E672C /* SEGGroupPayload.h */,
+				11F811ECEA2BA0EB9BE55BED0A028F8D /* SEGGroupPayload.m */,
+				A54A3C0DF72B5E11648DBAFCC62A7554 /* SEGHTTPClient.h */,
+				4143F2767920D6F6C09B4299291F434A /* SEGHTTPClient.m */,
+				EC47E98324EEA1DA8849149D19723169 /* SEGIdentifyPayload.h */,
+				71ACF3AA955EB536FCCC485E60A3D555 /* SEGIdentifyPayload.m */,
+				7B8AFEE302F7BB52BE323196138A1AC3 /* SEGIntegration.h */,
+				E54DBD989EDE59612CBC8DED1B0419CB /* SEGIntegrationFactory.h */,
+				33FB72778F4996C31C402A81CF9E6749 /* SEGIntegrationsManager.h */,
+				2598879AA24EE241BC745E8AB4762ABE /* SEGIntegrationsManager.m */,
+				253DF802AEC7639467D92A89E1FF1606 /* SEGMacros.h */,
+				FB41EEF00B8302508D0EDEDFB321D83F /* Segment.h */,
+				5B1D4F6282AD802CCA5567CAE321DC89 /* SEGMiddleware.h */,
+				A8C0F56990293A959C01D5D2B22F944C /* SEGMiddleware.m */,
+				6EA86D4652119FA1E4E59812E58B8AE7 /* SEGPayload.h */,
+				F4EF3EE11240A111DAE0B560F4E3E01D /* SEGPayload.m */,
+				57742CD3BA46C305920860DCE7EF14A7 /* SEGReachability.h */,
+				F74E88001E4F1658CF917EE128CE0B41 /* SEGReachability.m */,
+				D72A22DBB96647F1FFD81DCD189E97F8 /* SEGScreenPayload.h */,
+				2E9051391A16FB480587866D7953D289 /* SEGScreenPayload.m */,
+				01D037CA920DE811144C92F23568FA39 /* SEGScreenReporting.h */,
+				E01108B820D62A818A1A0004D34A0639 /* SEGSegmentIntegration.h */,
+				20312C0701127236F282EECC58F83333 /* SEGSegmentIntegration.m */,
+				1CEE87FE8ADC429F62F07DD406F3BDF5 /* SEGSegmentIntegrationFactory.h */,
+				5CC47D5CE6B71E330C0C6F37A8B99F10 /* SEGSegmentIntegrationFactory.m */,
+				57C4F292C37DE97182121A8F4F60C464 /* SEGSerializableValue.h */,
+				6E36EE7519EB830EA424C0A6A23986D2 /* SEGState.h */,
+				E3D1F7DD5B02060834F05B504296A1FA /* SEGState.m */,
+				340D1E85E46FA129B477F598048B36C1 /* SEGStorage.h */,
+				005F59D5286F732ACE11625AA286BFBE /* SEGStoreKitTracker.h */,
+				88F17E47A3D8EC79B7AB7D14F7E9C9EB /* SEGStoreKitTracker.m */,
+				36429E94769EC016F59D9CC8723EAF3D /* SEGTrackPayload.h */,
+				35291B811DA2B42FC6D7F488D2697030 /* SEGTrackPayload.m */,
+				142DE9DFC43951853C4B7E868654DD80 /* SEGUserDefaultsStorage.h */,
+				8C6764DA5FBA1DA9920CA8B35B570EA4 /* SEGUserDefaultsStorage.m */,
+				61AFF9DDA222DD3EFD66BDE4EC6B14DF /* SEGUtils.h */,
+				CCF20533C46027FE658D519F13129EA7 /* SEGUtils.m */,
+				E83EEAE345C187AF8E4C4FC484036497 /* SEGWebhookIntegration.h */,
+				2078DF79DD3E266F0F05F455908EC793 /* SEGWebhookIntegration.m */,
+				F9EC90B943EF44FED0B37DD8AB2E9B35 /* UIViewController+SEGScreen.h */,
+				A026D5A295D5EEF337198F0A24D25E2A /* UIViewController+SEGScreen.m */,
+				2E715614168E06C394F707EA9C28C91B /* Support Files */,
+			);
+			name = Analytics;
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		AE7C8CBF161A994975DD26465996D2B1 /* Segment-Mixpanel */ = {
+			isa = PBXGroup;
+			children = (
+				EF054A2276863A99FE4B164651053D5A /* SEGMixpanelIntegration.h */,
+				0497508915CFD0A177730D54BDCA64BD /* SEGMixpanelIntegration.m */,
+				0E108DA06DB1A6658B98043C0600C762 /* SEGMixpanelIntegrationFactory.h */,
+				F394DF1E2DE96DFEE11076447DBC5AE3 /* SEGMixpanelIntegrationFactory.m */,
+				2861D60E019AE489FC81B3A934BB660F /* Support Files */,
+			);
+			name = "Segment-Mixpanel";
+			path = "Segment-Mixpanel";
+			sourceTree = "<group>";
+		};
+		BD63F94EAFA881EF0C3ADB96AA987230 /* Pods-segment_ios */ = {
+			isa = PBXGroup;
+			children = (
+				5B3444F2D8BD5D5D24C21077507C9BB4 /* Pods-segment_ios.modulemap */,
+				8E52644DB2CB9285A7A9391476C53E4C /* Pods-segment_ios-acknowledgements.markdown */,
+				DE7477A1A3E4D4526B92536E74FF14B3 /* Pods-segment_ios-acknowledgements.plist */,
+				00608292BDDFF64EAE0F25A3F5ED650B /* Pods-segment_ios-dummy.m */,
+				89442FF1BFBC25875DA6F9EC4CA16918 /* Pods-segment_ios-frameworks.sh */,
+				EFE2CD5DF465216029D05DD2300206C9 /* Pods-segment_ios-Info.plist */,
+				FA8FFB90CD8D5721697FC2FCCE48B724 /* Pods-segment_ios-umbrella.h */,
+				679AB1490F74B8E55DB04F2570775E9F /* Pods-segment_ios.debug.xcconfig */,
+				FF752CDAB61DFDB13888EDB3EADDEC09 /* Pods-segment_ios.release.xcconfig */,
+			);
+			name = "Pods-segment_ios";
+			path = "Target Support Files/Pods-segment_ios";
+			sourceTree = "<group>";
+		};
+		CE2A8050CB03CB2716BE37E1AA2FA14D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1727A7EAC2A4914BFF4160EE9B5B8C5A /* Accelerate.framework */,
+				DA0DD7AEEE5334C5C008E683BCB88BEE /* CoreGraphics.framework */,
+				6483E2F941827D1CD0FE74D63C21652C /* CoreTelephony.framework */,
+				09EC4545AD5E372F06BECAD4A90E472A /* Foundation.framework */,
+				4F30953636DA34EDD37E23B2E88707BC /* QuartzCore.framework */,
+				FC6E078375507BB3B004DE5DC6C8E642 /* StoreKit.framework */,
+				E8988BB5D9D6637CA759F006928C6B1C /* SystemConfiguration.framework */,
+				F0EB98FD99BFE456C163ED9F2D8B6807 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F119B4A0ABE017AECEE69836596133B2 /* Frameworks */,
+				3695BEE8C846AC3C8703CFFE52023399 /* Pods */,
+				DCFF6BB335E88F7A861BE0BC32E42AC0 /* Products */,
+				618993320EF951199BD2886949863670 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFF6BB335E88F7A861BE0BC32E42AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B6165F426953A26419DF02AF0D93 /* Analytics */,
+				1C230361F74CF7214D3D9A1CB61B5FF9 /* Mixpanel */,
+				36B0007ECE9DEDC6E64CC10F95D459BF /* Pods-segment_ios */,
+				67CB391E8317A433C096E0626E7D7451 /* Segment-Mixpanel */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F119B4A0ABE017AECEE69836596133B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A8050CB03CB2716BE37E1AA2FA14D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08DA7655C22B012F68255BB13083F6F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B7E58595010F1158839CB80D1BFD05 /* AutomaticEvents.h in Headers */,
+				E71FF9F3AC6C69C401E3345ED75318FE /* Mixpanel.h in Headers */,
+				8FFACE233F09D4D12D14B245E160180B /* Mixpanel-umbrella.h in Headers */,
+				49516146CFF7204A9EF22E1A20E0EB3B /* MixpanelExceptionHandler.h in Headers */,
+				29EB2BB8A05C8FA4199DB760DCC7F421 /* MixpanelGroup.h in Headers */,
+				258B0492D68DA5380C22E2C19DFF0EB7 /* MixpanelGroupPrivate.h in Headers */,
+				66588CF86AD8CE54FB02A548F9E2E0CA /* MixpanelIdentity.h in Headers */,
+				14FCBFF21A53B61462CEB13571A58554 /* MixpanelPeople.h in Headers */,
+				D28E14052CD0A91C836F5772219C2834 /* MixpanelPeoplePrivate.h in Headers */,
+				5F3C2B7EFD6E617C4F028869166BD3B7 /* MixpanelPersistence.h in Headers */,
+				2CD75771820774EC75ECC5E138899ACC /* MixpanelPrivate.h in Headers */,
+				B3868CAC80FB99815B226A299350EEC0 /* MixpanelType.h in Headers */,
+				758C6349B66EC10A899AA907E68AF970 /* MPDB.h in Headers */,
+				F0FBAD72F75F680FFC9A970762F41C89 /* MPFoundation.h in Headers */,
+				CE74DE1DD207253E2FA2033F73712A97 /* MPJSONHander.h in Headers */,
+				34D25FDE0C34DEC897AE6DB470FA3E85 /* MPLogger.h in Headers */,
+				25CC3DAB023D6CFBCA9D71159B6DE2D2 /* MPNetwork.h in Headers */,
+				801C3E728BE598DA047FE2F2FBE59BF9 /* MPNetworkPrivate.h in Headers */,
+				88E8E7E76F34BE9897B4FC6EE0A506AA /* SessionMetadata.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB1E65B4A6AFCA25CE06F67A29F3C3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696482E99269E8CDB0500799BBCE6449 /* Analytics-umbrella.h in Headers */,
+				91FC06B3714F103E9192A6F68B15C6D3 /* NSData+SEGGZIP.h in Headers */,
+				EC8A5632EB1726B2A002A4DCFB358577 /* NSViewController+SEGScreen.h in Headers */,
+				3AB503D076E809F546D53CA1B0B2B9EB /* SEGAES256Crypto.h in Headers */,
+				71B2EE32B16BB71EB3B48EFDB2D2C3F7 /* SEGAliasPayload.h in Headers */,
+				DA418C3CD9199C93A7213AED57B6CFEA /* SEGAnalytics.h in Headers */,
+				52AC7272006789E5B32F5AFAE4ABD6A0 /* SEGAnalyticsConfiguration.h in Headers */,
+				AD948BE8E64B07B2A2F94D660C4C82DC /* SEGAnalyticsUtils.h in Headers */,
+				36204C6E3833C361DC25A78BE407CFFA /* SEGContext.h in Headers */,
+				933E8D19F4112CDB3FF768CC633F818B /* SEGCrypto.h in Headers */,
+				6C15EB240AF9CD8016D266AA7C9DAE6C /* SEGFileStorage.h in Headers */,
+				FEA67B1EE1DFCC8C2D02902FD242CB4E /* SEGGroupPayload.h in Headers */,
+				486BD878A6185651850D19FE0A855E54 /* SEGHTTPClient.h in Headers */,
+				EFA3349CA5229101281160A984AD2A30 /* SEGIdentifyPayload.h in Headers */,
+				188BC6A856F53497BBDBD32B7CB98EC1 /* SEGIntegration.h in Headers */,
+				B30E2A2E2B816303880718FC3CF2A3FA /* SEGIntegrationFactory.h in Headers */,
+				7D2B6FEB7994AD7BE07AF9ACF5A9505E /* SEGIntegrationsManager.h in Headers */,
+				0D66936A8F524646E62755CAF117F98F /* SEGMacros.h in Headers */,
+				A0450A08E026AD13C29F3B42E1B0C7E6 /* Segment.h in Headers */,
+				2A1C5D8D777D5AFF9BCEC8EC3D411CA7 /* SEGMiddleware.h in Headers */,
+				DF130B86CF3EC0670CDC46E6EBF9CF7B /* SEGPayload.h in Headers */,
+				557DEBE4CCD20864381A8DB339AF20A8 /* SEGReachability.h in Headers */,
+				A6FC39F9419F15E470434B9A4493A261 /* SEGScreenPayload.h in Headers */,
+				EC8EB7F1686CA218646849333EC81E38 /* SEGScreenReporting.h in Headers */,
+				320FE5C08207B115B6E98D4CE09381DD /* SEGSegmentIntegration.h in Headers */,
+				436C18C3ABB3D6A52A91AC93DD5DDBF0 /* SEGSegmentIntegrationFactory.h in Headers */,
+				977382C0F7359E7BE08753FF6D96EAB9 /* SEGSerializableValue.h in Headers */,
+				233849E7247678C8D08019E67C118B57 /* SEGState.h in Headers */,
+				7459C4D5936B411B548372351C1C4029 /* SEGStorage.h in Headers */,
+				CC83DEB29EE23239AB0C219054E1F5DE /* SEGStoreKitTracker.h in Headers */,
+				559868601F3A25B77CD8E5FCFFA830B9 /* SEGTrackPayload.h in Headers */,
+				A98268D73144D9B64DB82E9C5CD362AD /* SEGUserDefaultsStorage.h in Headers */,
+				E8F4C396C82107C84CD2BC08A6F29D0B /* SEGUtils.h in Headers */,
+				E210A24CB9C0CBA8F67D3B445619AAAF /* SEGWebhookIntegration.h in Headers */,
+				FD47E3FBF25FAEB299E1182C5EC419F8 /* UIViewController+SEGScreen.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1E7A0441B4879BA82E3754E1B97F0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0A04B92E75940DD27957BE15133A1D /* Segment-Mixpanel-umbrella.h in Headers */,
+				B14A4AD80DB30D96B4CC886B729AB318 /* SEGMixpanelIntegration.h in Headers */,
+				9A631A562EB473AABFB71096478B9C95 /* SEGMixpanelIntegrationFactory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21175BA3F4615BBC5D1BCADD9B6E172 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DA6C85E56CE6FCAA891954BE06BCAE /* Pods-segment_ios-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		537B4CFD82E0DD77F4C26221EBD8EDCA /* Mixpanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4076DF8AC9E1A72D625B99B7F3A3ADC2 /* Build configuration list for PBXNativeTarget "Mixpanel" */;
+			buildPhases = (
+				08DA7655C22B012F68255BB13083F6F1 /* Headers */,
+				E93C167F1B45EE819BC22F81B7E378D5 /* Sources */,
+				73AB770554478F5312C6820E5A1BF0CE /* Frameworks */,
+				794FC987D14262AA4EAE46FBDA218CBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mixpanel;
+			productName = Mixpanel;
+			productReference = 1C230361F74CF7214D3D9A1CB61B5FF9 /* Mixpanel */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F50A15C556FFEAD343B69C7EA54092F /* Analytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C82CF342ECAA25D327784BCC2142AA0 /* Build configuration list for PBXNativeTarget "Analytics" */;
+			buildPhases = (
+				8EB1E65B4A6AFCA25CE06F67A29F3C3D /* Headers */,
+				26CFFA719DD65B6D9EB6CE86738586CB /* Sources */,
+				BBCD615DF62E24420AC314FEAC864DEF /* Frameworks */,
+				E44F3D1CA8DB6B8E4EEFFBF009542FE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Analytics;
+			productName = Segment;
+			productReference = 2CE4B6165F426953A26419DF02AF0D93 /* Analytics */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A2A717F5D748C02847D5C84A6E5FCBB /* Segment-Mixpanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D162DBC26BC5A07B9FF08BCDDBF058F7 /* Build configuration list for PBXNativeTarget "Segment-Mixpanel" */;
+			buildPhases = (
+				AC1E7A0441B4879BA82E3754E1B97F0C /* Headers */,
+				45200DBA7FCA10130ECD4038E03CD5D5 /* Sources */,
+				55F02E5B0C9DCD054C5C94A4D2A8FD93 /* Frameworks */,
+				5CF693EDB03C14EEF6F3F7D92EFB560B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99C12E0F33E82C1E324843B5A40B3274 /* PBXTargetDependency */,
+				499A0B1FB8EEF573687E98E8D111CF98 /* PBXTargetDependency */,
+			);
+			name = "Segment-Mixpanel";
+			productName = Segment_Mixpanel;
+			productReference = 67CB391E8317A433C096E0626E7D7451 /* Segment-Mixpanel */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5D7695F68AA950BB4D3B35667BDF5D3 /* Pods-segment_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63451A5E971CC82380036211F0037D2 /* Build configuration list for PBXNativeTarget "Pods-segment_ios" */;
+			buildPhases = (
+				F21175BA3F4615BBC5D1BCADD9B6E172 /* Headers */,
+				9C6A50F00D9611D30AEE0347B7783453 /* Sources */,
+				D61B688516DA15FE1F2685EDE82A4A57 /* Frameworks */,
+				A35F8F2AC71DC7C164BD457FB23E7135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				850D0D853A58B5A7AB012FD5FF031253 /* PBXTargetDependency */,
+				AE77BA4266C70AF0BB6CB849F2161F8D /* PBXTargetDependency */,
+				E7B36E7B7C6C9D46820B9F37C56084D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-segment_ios";
+			productName = Pods_segment_ios;
+			productReference = 36B0007ECE9DEDC6E64CC10F95D459BF /* Pods-segment_ios */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DCFF6BB335E88F7A861BE0BC32E42AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F50A15C556FFEAD343B69C7EA54092F /* Analytics */,
+				537B4CFD82E0DD77F4C26221EBD8EDCA /* Mixpanel */,
+				C5D7695F68AA950BB4D3B35667BDF5D3 /* Pods-segment_ios */,
+				9A2A717F5D748C02847D5C84A6E5FCBB /* Segment-Mixpanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CF693EDB03C14EEF6F3F7D92EFB560B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794FC987D14262AA4EAE46FBDA218CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35F8F2AC71DC7C164BD457FB23E7135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44F3D1CA8DB6B8E4EEFFBF009542FE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26CFFA719DD65B6D9EB6CE86738586CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12FFE6A85B5F33032CF7A0E5E0B38EC /* Analytics-dummy.m in Sources */,
+				0A43C46F296C13246F66DED267B66149 /* NSData+SEGGZIP.m in Sources */,
+				B45E14C48D7529A682DC0E250B8B2DAD /* NSViewController+SEGScreen.m in Sources */,
+				8C0EEA8F56098154A880D893217F9840 /* SEGAES256Crypto.m in Sources */,
+				31B3F82B0183E280D3D11664CD5ED456 /* SEGAliasPayload.m in Sources */,
+				D46BEBE7D76C095DA757891E51CBE4DC /* SEGAnalytics.m in Sources */,
+				9CE5AE2FB94BAD317BA572E0E77D6A05 /* SEGAnalyticsConfiguration.m in Sources */,
+				8C041E2C23D6ACADF2EE2C5BEC52CC55 /* SEGAnalyticsUtils.m in Sources */,
+				17A2B46B5710553AC3B357E082C8D1A7 /* SEGContext.m in Sources */,
+				C43E523441207FCA51B655C1EBE61AA1 /* SEGFileStorage.m in Sources */,
+				BD40B43498BB7B136A0CB0D66714CD80 /* SEGGroupPayload.m in Sources */,
+				89D257FA9D2CD19B84D6D32EC19B7628 /* SEGHTTPClient.m in Sources */,
+				3EFCD773E3C83EBD7D056CAE92E0B173 /* SEGIdentifyPayload.m in Sources */,
+				FB1F2CF0EC25B86AE8955D60BB7BA9B6 /* SEGIntegrationsManager.m in Sources */,
+				39F7A5121334D7A9996A148E4ECDE8AC /* SEGMiddleware.m in Sources */,
+				7D5C076A4746677A37F564C78018E0DA /* SEGPayload.m in Sources */,
+				7C5CC019B581871B3A8F985B81EF24D5 /* SEGReachability.m in Sources */,
+				C7C07A0ACC33F28B0941BEEA01049CB9 /* SEGScreenPayload.m in Sources */,
+				12A5DB6B55FD8432DC4FCD2A5CD1ACD2 /* SEGSegmentIntegration.m in Sources */,
+				AC2BB0E786ED3585E7457985E8C9C92F /* SEGSegmentIntegrationFactory.m in Sources */,
+				3CCFE6AA09821263964112C456248DC5 /* SEGState.m in Sources */,
+				F73144C3DF66F22DA7CA846601BD3AAE /* SEGStoreKitTracker.m in Sources */,
+				2B1EF9F938A82FDD6FE44792DBE27FE0 /* SEGTrackPayload.m in Sources */,
+				860EC0A5D4E5DE26C3FC5BA1B64BAFA8 /* SEGUserDefaultsStorage.m in Sources */,
+				B41B7CA65465FD40292222CBB4387589 /* SEGUtils.m in Sources */,
+				EA29DF308095E0DA82A77CB9C00852AE /* SEGWebhookIntegration.m in Sources */,
+				AD1EF9ED5EF7C111B42B8D0DACB3DADD /* UIViewController+SEGScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45200DBA7FCA10130ECD4038E03CD5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D91309CAB1F1E2991A73A34EF3F45E /* Segment-Mixpanel-dummy.m in Sources */,
+				D487F0CFE93C9F22E7BA49B7A0EE9A8A /* SEGMixpanelIntegration.m in Sources */,
+				211DEB4BE5B24389E3DD5C590941D7FF /* SEGMixpanelIntegrationFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6A50F00D9611D30AEE0347B7783453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5A07D18FAC110A4DE483DFBEC7DC20 /* Pods-segment_ios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93C167F1B45EE819BC22F81B7E378D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCC6DF3116852FCE777FE83D7FF4719 /* AutomaticEvents.m in Sources */,
+				AAE32F7E082954CF1DEB05F3DBAE7EE7 /* Mixpanel.m in Sources */,
+				BBE266DA056B721D06F73EDC78A0B7D5 /* Mixpanel-dummy.m in Sources */,
+				13A4BE6333B524017741FB6211340121 /* MixpanelExceptionHandler.m in Sources */,
+				2CA2A157A24DEBF81B31F04F57D511CB /* MixpanelGroup.m in Sources */,
+				AEF66C8775A1AFA00228442CC69D83D4 /* MixpanelIdentity.m in Sources */,
+				FA8E28C8BB07ED3AF93CEE55CF8FA9A9 /* MixpanelPeople.m in Sources */,
+				041E7F86C13C45DA8581373B4EFEFCC6 /* MixpanelPersistence.m in Sources */,
+				2BD5B948072B5DDFDF50A5256A167C86 /* MixpanelType.m in Sources */,
+				A4D4F41631772956342E2B5E2C426D82 /* MPDB.m in Sources */,
+				A0B9E30C0EFDA3C5E72EACFADDA1F0D0 /* MPJSONHandler.m in Sources */,
+				69895C9C73EFFAF14F5FE152E4855C2A /* MPLogger.m in Sources */,
+				0297187F6F68C452C5AC82E09E24DD36 /* MPNetwork.m in Sources */,
+				580B88213546D9DC036A6D55F7B165C7 /* SessionMetadata.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		499A0B1FB8EEF573687E98E8D111CF98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mixpanel;
+			target = 537B4CFD82E0DD77F4C26221EBD8EDCA /* Mixpanel */;
+			targetProxy = FC3A394145784AA96C204A70E785BD64 /* PBXContainerItemProxy */;
+		};
+		850D0D853A58B5A7AB012FD5FF031253 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Analytics;
+			target = 8F50A15C556FFEAD343B69C7EA54092F /* Analytics */;
+			targetProxy = 788F20BE28A8FC93E86BEA4FDA7BD28F /* PBXContainerItemProxy */;
+		};
+		99C12E0F33E82C1E324843B5A40B3274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Analytics;
+			target = 8F50A15C556FFEAD343B69C7EA54092F /* Analytics */;
+			targetProxy = 6BB353DFF83FA07C74BC82C4D44FBDC5 /* PBXContainerItemProxy */;
+		};
+		AE77BA4266C70AF0BB6CB849F2161F8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mixpanel;
+			target = 537B4CFD82E0DD77F4C26221EBD8EDCA /* Mixpanel */;
+			targetProxy = D55450E0D6714E1666EEED8559A7B0E4 /* PBXContainerItemProxy */;
+		};
+		E7B36E7B7C6C9D46820B9F37C56084D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Segment-Mixpanel";
+			target = 9A2A717F5D748C02847D5C84A6E5FCBB /* Segment-Mixpanel */;
+			targetProxy = 75147B0390BBEC64667D016704943B90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4AB734CF8A6546897B7B8A8B32E99562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802B0FD574EE6D1C63FA74D5EF154B27 /* Segment-Mixpanel.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Segment-Mixpanel/Segment-Mixpanel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Segment-Mixpanel/Segment-Mixpanel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Segment-Mixpanel/Segment-Mixpanel.modulemap";
+				PRODUCT_MODULE_NAME = Segment_Mixpanel;
+				PRODUCT_NAME = Segment_Mixpanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63E33BB888C16DAD0A426BE428D5BA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF752CDAB61DFDB13888EDB3EADDEC09 /* Pods-segment_ios.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-segment_ios/Pods-segment_ios-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-segment_ios/Pods-segment_ios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9379E22E6201929F8372ACAA5521B007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E55805DC433DD19215392B2710906B92 /* Analytics.release.xcconfig */;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Analytics/Analytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Analytics/Analytics-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Analytics/Analytics.modulemap";
+				PRODUCT_MODULE_NAME = Segment;
+				PRODUCT_NAME = Segment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD85DFF90631C759BFD592CFD2FA4A12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 679AB1490F74B8E55DB04F2570775E9F /* Pods-segment_ios.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-segment_ios/Pods-segment_ios-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-segment_ios/Pods-segment_ios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2D988A35369805EE84CD07BEBBDFC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 213B5DF4D34475E5546AB0B4CCE8F7B2 /* Analytics.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Analytics/Analytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Analytics/Analytics-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Analytics/Analytics.modulemap";
+				PRODUCT_MODULE_NAME = Segment;
+				PRODUCT_NAME = Segment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBF15FCFDCC1DD0352CD7E25066CFFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F087704D6592770D57F05FB5EA6B360 /* Mixpanel.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mixpanel/Mixpanel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mixpanel/Mixpanel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Mixpanel/Mixpanel.modulemap";
+				PRODUCT_MODULE_NAME = Mixpanel;
+				PRODUCT_NAME = Mixpanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E90B79F6721C60649C6D98897D62D0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13361B4E7377859362E4DDBDEDACA9C4 /* Mixpanel.release.xcconfig */;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mixpanel/Mixpanel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mixpanel/Mixpanel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Mixpanel/Mixpanel.modulemap";
+				PRODUCT_MODULE_NAME = Mixpanel;
+				PRODUCT_NAME = Mixpanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAEBC609736C92E5C8F78777E4CE8FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 618EA64FFDC1916D619DE83E59A38853 /* Segment-Mixpanel.release.xcconfig */;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Segment-Mixpanel/Segment-Mixpanel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Segment-Mixpanel/Segment-Mixpanel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Segment-Mixpanel/Segment-Mixpanel.modulemap";
+				PRODUCT_MODULE_NAME = Segment_Mixpanel;
+				PRODUCT_NAME = Segment_Mixpanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4076DF8AC9E1A72D625B99B7F3A3ADC2 /* Build configuration list for PBXNativeTarget "Mixpanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF15FCFDCC1DD0352CD7E25066CFFC7 /* Debug */,
+				E90B79F6721C60649C6D98897D62D0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C82CF342ECAA25D327784BCC2142AA0 /* Build configuration list for PBXNativeTarget "Analytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D988A35369805EE84CD07BEBBDFC34 /* Debug */,
+				9379E22E6201929F8372ACAA5521B007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63451A5E971CC82380036211F0037D2 /* Build configuration list for PBXNativeTarget "Pods-segment_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD85DFF90631C759BFD592CFD2FA4A12 /* Debug */,
+				63E33BB888C16DAD0A426BE428D5BA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D162DBC26BC5A07B9FF08BCDDBF058F7 /* Build configuration list for PBXNativeTarget "Segment-Mixpanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB734CF8A6546897B7B8A8B32E99562 /* Debug */,
+				FAEBC609736C92E5C8F78777E4CE8FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
